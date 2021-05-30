@@ -6,6 +6,6 @@ function Selection(props){
     <div className="fix-box" style={selectionStyle} onClick={()=>{applayColor(updateSelectionStyle)}}>
     <h2 class="subheading">Selection</h2>
     </div>
-  );
+  )
 }
-export default Selection;
+export default Selection
