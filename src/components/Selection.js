@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
-function Selection(props){
-  const {applyColor}=props;
+const Selection = (props) =>{
   const[selectionStyle,updateSlectionStyle]=useState({backgroung:''});
   return(
-    <div className="fix-box" style={selectionStyle} onClick={()=>{applayColor(updateSelectionStyle)}}>
+    <div className="fix-box" style={selectionStyle} onClick={()=>{props.applayColor(updateSlectionStyle)}}>
     <h2 class="subheading">Selection</h2>
     </div>
   )
 }
-export default Selection
+export default Selection;
